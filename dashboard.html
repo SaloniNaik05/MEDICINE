@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Welcome</h1>
+  <p>You are logged: <span id="username"></span></p>
+  
+  <div>
+    <h2>Medicine Reminders</h2>
+    <!-- Add a form to add reminders -->
+    <input type="text" id="medicine-name" placeholder="Enter Medicine Name" />
+    <input type="time" id="time1" />
+    <input type="time" id="time2" />
+    <button onclick="addReminder()">Set Reminder</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
